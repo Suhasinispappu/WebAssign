@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+} 
+
+p{
+   background-color: rgba(173, 216, 230, 0.247);
+   color: white;
+}
+
+body{
+    background-image:url("https://external-preview.redd.it/14NUtKSeXTdwpjfEdwBHw2lecisArivhcYY6pN8oPmI.png?auto=webp&s=ef40f2c50d72229ef910ca3b7ca0a72e8ea61af8");
+    background-size: auto;
+}

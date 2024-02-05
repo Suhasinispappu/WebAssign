@@ -1,0 +1,27 @@
+body{    
+    background-image: url("https://wallup.net/wp-content/uploads/2019/09/25634-circuit-board-electronic-devices-tech-blue-abstract-line-metal-detail.jpg");
+    background-size: auto;
+}
+
+#field{
+    height:170 ;
+    width: 270px;
+     border-radius: 10%; 
+    margin-left: 450px;
+    margin-top: 150px;
+   color: white;
+ }
+ .input{
+    background-color: transparent;
+ }
+
+button{
+    background-color: rgba(0, 0, 0, 0.046);
+     color: white;
+     margin-left: 50px;
+ }
+
+ a{
+    color: white;
+    text-decoration: none;
+ }

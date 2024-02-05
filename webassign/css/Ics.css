@@ -1,0 +1,27 @@
+.parent
+{
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+.child img{
+    height: 200px;
+    width: 290px; 
+    border: 1px solid black;  
+}
+
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/03/45/78/67/360_F_345786725_tkitkJde0LUbdwvxJmU0t3FBIQRneiwO.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(0, 128, 0, 0.63);
+    margin-left: 1150px;
+}

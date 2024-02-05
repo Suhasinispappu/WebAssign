@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/547/872/original/design-in-the-concept-of-electronic-circuit-boards-vector.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: whitesmoke ;
+   margin-top: 150px;       
+}
+
+#field{
+   width: 350px;
+    border-radius: 10%; 
+   margin-left: 230px;
+}
+
+button{
+   background-color: rgba(0, 0, 0, 0.046);
+    color: white;
+   margin-left: 70px;
+}
+
+.input{   
+background-color: transparent;
+}
