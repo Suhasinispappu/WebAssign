@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <style>
+        body{
+           background-image: url("https://wallpapercave.com/wp/wp5984568.jpg");
+           background-size: contain;
+           background-repeat: no-repeat;
+        }
+        .sun{
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 270px;
+            left: 540px;
+        }
+
+        #sunimg{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .mercury{
+            height: 120px;
+            width: 190px;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+            top: 150px;
+            left: 500px;
+            border-radius: 50%;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+            @keyframes roatate {
+                from{
+
+                }
+                to{
+                    transform: rotate(360deg);
+                }
+                
+            } 
+
+        #merimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 10px;
+ 
+        }
+
+        .venus{
+            height: 180px;
+            width: 280px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+           bottom: 15px;
+            left: 450px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        #venimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 30px;
+        }
+
+        .earth{
+            height: 270px;
+            width: 370px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+            bottom: 250px;
+            left: 400px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    
+        #earimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            left: 45px;
+            top: 20px;
+        }
+
+        .mars{
+            height: 370px;
+            width: 440px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+           bottom: 570px;
+            left: 370px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+
+        #marimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 20px;
+            left: 65px;
+        }
+
+        .jupiter{
+            height: 450px;
+            width: 520px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+           bottom: 990px;
+            left: 320px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+        
+        #jupimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 20px;
+            left: 105px;
+        }
+
+
+        .saturn{
+            height: 550px;
+            width: 600px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+           bottom: 1500px;
+            left: 280px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+
+        #satimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 25px;
+            left: 120px;
+        }
+        
+        .uranus{
+            height: 650px;
+            width: 700px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+           bottom: 2100px;
+            left: 240px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+
+        #uraimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 30px;
+            left: 150px;
+        }
+
+        .neptune{
+            height: 750px;
+            width: 800px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+           bottom: 2800px;
+            left: 200px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+
+        #nepimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 150px;
+        }
+
+        .pluto{
+            height: 850px;
+            width: 900px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.562);
+            position: relative;
+            bottom: 3600px;
+            left: 160px;
+            animation-name: roatate;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+
+        #pluimg{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            top: 80px;
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sun"><img id="sunimg" src="https://thumbs.dreamstime.com/b/sun-planet-space-48732822.jpg" alt=""></div>
+
+    <div class="mercury"><img id="merimg" src="https://i0.wp.com/www.thailandnews.co/wp-content/uploads/Mercury.jpg?fit=800,800&ssl=1" alt="" ></div>
+
+    <div class="venus"><img id="venimg" src="https://cosmosmagazine.com/wp-content/uploads/2020/04/venus_resized.jpg" alt=""> </div>
+
+    <div class="earth"><div><img id="earimg" src="http://eoimages.gsfc.nasa.gov/images/imagerecords/0/885/modis_wonderglobe_lrg.jpg" alt=""></div></div>
+
+    <div class="mars"><img id="marimg" src="https://tse2.mm.bing.net/th?id=OIP.s4V3rEWRkQPv2knx-Pgx5QHaG2&pid=Api&P=0&h=180" alt=""></div> 
+
+
+    <div class="jupiter"><img id="jupimg" src="https://tse2.mm.bing.net/th?id=OIP.-8lkeoCtIabfbmd2hYCvSwHaHH&pid=Api&P=0&h=180" alt=""></div>
+
+    <div class="saturn"><img id="satimg" src="https://i.pinimg.com/originals/66/21/b7/6621b71f1a6e12958f23b6d352b8b5b3.jpg" alt=""></div>
+
+
+    <div class="uranus">
+        <div ><img id="uraimg" src="http://taylorsciencegeeks.weebly.com/uploads/5/9/2/0/59201005/259254979.jpg" alt=""></div>
+    </div>
+
+    <div class="neptune">
+        <div ><img id="nepimg" src="https://universemagazine.com/wp-content/uploads/2021/12/neptune-stars-ian-mckinnell.jpg" alt=""></div>
+    </div>
+
+    <div class="pluto">
+        <div ><img id="pluimg" src="http://blogs.nasa.gov/pluto/wp-content/uploads/sites/253/2015/10/pluto-heart.png" alt=""></div>
+    </div>
+
+</body>
+</html>
